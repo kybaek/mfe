@@ -20,6 +20,6 @@ const prodConfig = {
       shared: packageJson.dependencies
     })
   ]
-};
+}; 
 
 module.exports = merge(commonConfig, prodConfig);
